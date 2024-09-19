@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="youtube.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <!--This line links the Remix Icon font library, which is hosted on a CDN (Content Delivery Network). Once included in your HTML, you can use various icons from this library in your project.-->
+    <!-- the <i> tag is frequently used as a container to apply icon fonts like Font Awesome, Remix Icon, and others. Icon libraries often use <i> tags with specific classes to display icons, even though the content inside the <i> tag itself is empty.-->
+
+
+</head>
+<body>
+    <div class="header">
+
+        <div class="logo-container">
+            <i class="ri-menu-line"></i>
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="./image/logo .png" alt="">
+                </div>
+                <h1 id="logo-txt">YouTube<sup>IN</sup></h1>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <form action="">
+                <input type="text" placeholder="Search">
+
+            </form>
+            <button class="search"><i class="ri-search-line"></i></button>
+            <button class="mic"><i class="ri-mic-fill"></i></button>
+        </div>
+
+        <div class="profile-container">
+            <i class="ri-video-add-line"></i>
+            <i class="ri-grid-fill"></i>
+            <i class="ri-notification-4-line"></i>
+            <div class="profile-box">
+                <img src="./image/profile-logo.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="body-container">
+        <div class="sidebar">
+            <div class="sibebar-items">
+                <a href="#" class="sidebar-item"><i class="ri-home-4-line"></i><span>Home</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-compass-3-line"></i><span>Explore</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-wireless-charging-line"></i><span>Shorts</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-rss-line"></i><span>Subscription</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-signal-tower-fill"></i><span>Podcast</span></a>
+                <hr>
+                <a href="#" class="sidebar-item"><i class="ri-links-line"></i><span>Library</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-history-line"></i><span>History</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-video-line"></i><span>Video</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-time-line"></i><span>Watch Later</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-play-list-2-line"></i><span>All Videos</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-arrow-down-s-line"></i><span>Show More</span></a>
+                <hr>
+                <a href="#" class="sidebar-item"><i class="ri-keyboard-box-line"></i><span>Gaming</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-live-line"></i><span>Live</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-award-line"></i><span>Sports</span></a>
+                <hr>
+                <a href="#" class="sidebar-item"><i class="ri-settings-5-line"></i><span>Settings</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-flag-line"></i><span>Report History</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-question-line"></i><span>Help</span></a>
+                <a href="#" class="sidebar-item"><i class="ri-feedback-line"></i><span>Send Feedback</span></a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="chips-wrapper">
+                    <div class="chip">
+                        <p>All</p>
+                    </div>
+                    <div class="chip">
+                        <p>Data Structue</p>
+                    </div>
+                    <div class="chip">
+                        <p>Resume</p>
+                    </div>
+                    <div class="chip">
+                        <p>Recruitment</p>
+                    </div>
+                    <div class="chip">
+                        <p>HTML</p>
+                    </div>
+                    <div class="chip">
+                        <p>CSS</p>
+                    </div>
+                    <div class="chip">
+                        <p>Projects</p>
+                    </div>
+                    <div class="chip">
+                        <p>TMKOC</p>
+                    </div>
+                    <div class="chip">
+                        <p>Doraemon</p>
+                    </div>
+                    <div class="chip">
+                        <p>Shinchan</p>
+                    </div>
+                    <div class="chip">
+                        <p>Live</p>
+                    </div>
+                    <div class="chip">
+                        <p>Recently Uploaded</p>
+                    </div>
+                    <div class="chip">
+                        <p>Watched</p>
+                    </div>
+                    <div class="chip">
+                        <p>New to you</p>
+                    </div>
+                    <div class="chip">
+                        <p>Shorts</p>
+                    </div>
+                    <div class="chip">
+                        <p>Canvas India</p>
+                    </div>
+            </div>
+
+            <div class="video-container">
+                <!-- <div class="video-content-cover"> -->
+                    <div class="video-content">
+                        <img src="./image/thumbnail-1.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi</h3>
+                                <p><b>CodeWithHarry</b></p>
+                                <p class="view">4.22M Views | Uploaded: Jul 14, 2022</p>
+                            </div>
+                        </div>
+                    </div>  
+
+                    <div class="video-content">
+                        <img src="./image/thumbnail-1.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="./image/thumbnail-1.jpg" alt="channel-logo">
+                            <div class="details">
+                                <h3>HTML Basic and Page | Site Tittle Setup</h3>
+                                <p><b>JAKAFIND</b></p>
+                                <p class="view">4.2k Views | Uploaded: Aug 28, 2024</p>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <div class="video-content">
+                        <img src="./image/thumbnail-1.jpg.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="./image/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Best HTML and CSS tutorial for beginners with project </h3>
+                                <p><b>TechGun</b></p>
+                                <p class="view">7.45K Views | Uploaded: Jan 17, 2024</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="video-content">
+                        <img src="./image/thumbnail-1.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>A practical guide to responsive web design</h3>
+                                <p><b>FreeCodeCamp</b></p>
+                                <p class="view">206K Views | Uploaded: Jan 16, 2024</p>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <div class="video-content">
+                        <img src="./image/thumbnail-1.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Introduction To Responsive Web Design - HTML & CSS Tutorial</h3>
+                                <p><b>FreeCodeCamp</b></p>
+                                <p class="view">1.22M Views | Uploaded: Jul 14, 2021</p>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <div class="video-content">
+                        <img src="./image/thumbnail-1.jpg" alt="thumbail"  class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Tuition Classes aur Bache | Ashish Chanchlani</h3>
+                                <p> <b>Ashish chanchlani vines</b></p>
+                                <p class="view">165M Views | Uploaded: Dec 29, 2018</p>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <div class="video-content">
+                        <img src="./image/thumbnail-1.jpg" alt="thumbail"  class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>The Mummy Returns | Ashish Chanchlani</h3>
+                                <p> <b>Ashish chanchlani vines</b></p>
+                                <p class="view">73.7M Views | Uploaded: May 8, 2021</p>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <div class="video-content">
+                    <!--div class="video-content">
+                        <img src="images/thumbnail-8.jpg" alt="thumbail"  class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Final Exams | Ashish Chanchlani</h3>
+                                <p><b>Ashish chanchlani vines</b></p>
+                                <p class="view">94.6M Views | Uploaded: Mar 8, 2020
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="video-content">
+                        <img src="images/thumbnail-9.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Learn Java Programming (version 17)</h3>
+                                <p><b>FreeCodeCamp</b></p>
+                                <p class="view">4.22M Views | Uploaded: May 14, 2021</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="video-content">
+                        <img src="images/thumbnail-8.jpg" alt="thumbail"  class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Final Exams | Ashish Chanchlani</h3>
+                                <p><b>Ashish chanchlani vines</b></p>
+                                <p class="view">94.6M Views | Uploaded: Mar 8, 2020
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="video-content">
+                        <img src="images/thumbnail-5.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Introduction To Responsive Web Design - HTML & CSS Tutorial</h3>
+                                <p><b>FreeCodeCamp</b></p>
+                                <p class="view">1.22M Views | Uploaded: Jul 14, 2021</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="video-content">
+                        <img src="images/thumbnail-4.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>A practical guide to responsive web design</h3>
+                                <p><b>FreeCodeCamp</b></p>
+                                <p class="view">206K Views | Uploaded: Jan 16, 2024</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="video-content">
+                        <img src="images/thumbnail-1.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi</h3>
+                                <p><b>CodeWithHarry</b></p>
+                                <p class="view">4.22M Views | Uploaded: Jul 14, 2022</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-content">
+                        <img src="images/thumbnail-9.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>Learn Java Programming (version 17)</h3>
+                                <p><b>FreeCodeCamp</b></p>
+                                <p class="view">4.22M Views | Uploaded: May 14, 2021</p>
+                            </div>
+                        </div>
+                    </div--> 
+
+                    <div class="video-content">
+                        <img src="images/thumbnail-4.jpg" alt="thumbail" class="img">
+                        <div class="video-details">
+                            <img src="images/profile-logo.png" alt="channel-logo">
+                            <div class="details">
+                                <h3>A practical guide to responsive web design</h3>
+                                <p><b>FreeCodeCamp</b></p>
+                                <p class="view">206K Views | Uploaded: Jan 16, 2024</p>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                <!-- </div> -->
+
+            </div>
+        </div>
+    </div>
+</body>
